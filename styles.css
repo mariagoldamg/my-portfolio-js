@@ -13,7 +13,7 @@
                 position: fixed;
                 width: 100%;
                 height: 100%;
-                background-color: white;
+                background-color: #9BA4B5;
                 background-image: url("");
                 background-repeat: repeat scroll center top;
                 background-size: cover;
@@ -28,7 +28,7 @@
                 top: 48px;
                 left: 0;
                 width: 80px;
-                color: #13E8E9;
+                color: #394867;
                 font-size: .8em;
                 text-align: left;
                 text-indent: 4px;
@@ -53,7 +53,7 @@
               }  
       /* ---- navbar ---- */
 nav {
-    background-color:#8D72E1 ;
+    background-color:#394867;
 }
 
 .navbar-brand, .nav-link {
@@ -63,18 +63,24 @@ nav {
 .navbar-brand1 {
     display: none;
 }
-
+ .nav-link:hover{
+    color: #F1F6F9;
+    text-decoration: underline;
+}
+.navbar-brand:hover{
+    color: #F1F6F9;
+    text-decoration: underline;
+}
 #contactForm {
-    border:2px solid #6C4AB6;
+    background-color: #394867;
     padding: 50px;
-    border-radius: 20px;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif; 
     font-size:30px;
     font-weight:bold ;
-    color:  #6C4AB6;
+    color:  #9BA4B5;
    margin-left: 80px;
 }
 label {
@@ -83,17 +89,17 @@ label {
     font-family: 'Poppins', sans-serif; 
     font-size:18px;
     margin: 20px;
+    color: #9BA4B5;
 }
 label:hover {
-    color: #6C4AB6;
+    color: #F1F6F9;
 
 }
 textarea,input {
-    border-radius: 10px;
-    border: #6C4AB6 2px solid;
+    border: #394867 2px solid;
 }
-textarea,input:focus {
-    border:#6C4AB6 2px solid;
+input:hover{
+background-color: #9BA4B5;
 }
 
 #btnForm {
@@ -103,18 +109,22 @@ textarea,input:focus {
 .btnSubmit {
     padding:15px;
     font-family: 'Poppins', sans-serif; 
-    font-size:15px;
-    border:2px solid #6C4AB6;
-    border-radius: 20px;
-    color: #6C4AB6;
+    font-size:20px;
+    border:2px solid #9BA4B5;
+    color: #394867;
+    font-weight: bold;
     width:200px;
 }
 .btnSubmit:hover {
-background-color: #6C4AB6;
+background-color: #394867;
+font-size: 22px;
 color: #fff;
 cursor: pointer;
 }
 
+.btn-close{
+    color:#F1F6F9
+}
 
       /* ---- greeting page ---- */
 
@@ -128,16 +138,19 @@ cursor: pointer;
 p{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    
+    color:#F1F6F9 
+}
+.moreInfo{
+    color:#394867
 }
 #name, #frontEnd {
     font-size: 40px;
     font-style: bold;
-    color:#6C4AB6
+    color:#394867
 }
 
 img {
-margin-top: -50px;
+margin-top: -100px;
 }
 
 
@@ -160,10 +173,7 @@ h1 {
     font-family: 'Poppins', sans-serif; 
     font-size:30px;
     font-weight:bold;
-    color:#6C4AB6;
-    padding:15px;
-    border: 2px solid #6C4AB6;
-    border-radius: 20px;
+    color:#394867;
 }
 
 .card1 {
@@ -946,9 +956,7 @@ margin: 50px;
     width:800px;
     margin-top:50px;
 }
-input:hover {
-    background-color: #8D72E1;
-}
+
 .btnSubmit1 {
     padding:15px;
     font-family: 'Poppins', sans-serif; 

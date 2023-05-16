@@ -3,20 +3,20 @@ AOS.init();
  particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 14,
         "density": {
           "enable": true,
           "value_area": 100
         }
       },
       "color": {
-        "value": "#B9E0FF"
+        "value": "#F1F6F9"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#F1F6F9"
         },
         "polygon": {
           "nb_sides": 7
@@ -48,7 +48,7 @@ AOS.init();
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -56,7 +56,7 @@ AOS.init();
       },
       "move": {
         "enable": true,
-        "speed": 1,
+        "speed": 0.5,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -114,30 +114,41 @@ AOS.init();
   
 
   gsap.to ("#frontEnd", {
-    delay:2,
-    text:"web developer",
-    duration:2.5,
-   
+    delay:1.4,
+    text:"Fullstack Web Developer,",
+    duration:4,
     ease:"linear",
 })
+
 gsap.from ("img", {
-   
+
     opacity:0,
-    delay:4.7,
+    delay:5,
     duration:2
 })
 gsap.from (".fs-5", {
     y:-100,
      opacity:0,
-     delay:.5,
+     delay:.3,
      duration:2,
      
  })
- gsap.from ("p", {
+ gsap.from ("#name", {
+  opacity:0,
+  delay:0.3,
+  duration:2
+})
+ gsap.from (".info", {
     opacity:0,
-    delay:1.5,
+    delay:0.3,
     duration:2
 })
+gsap.from (".moreInfo", {
+  opacity:0,
+  delay:5,
+  duration:2.5
+})
+
 gsap.from ("h1", {
   opacity:0,
   delay:5.2,
