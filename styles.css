@@ -148,13 +148,182 @@ p{
     font-style: bold;
     color:#394867
 }
-
 img {
 margin-top: -100px;
 }
 
+      /* ---- About---- */
+      #title {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+.aboutAndCertificates{
+    display: flex;
+}
 
-      /* ---- portfolio ---- */
+   #aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mePar{
+    font-size:20px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 90px;
+    color:#394867
+}
+
+span {
+    color: #F1F6F9;
+}
+
+.carousel-item {
+    justify-content: center;
+    margin-top:200px;
+    margin-left:100px;
+}  
+.card{
+    background-color: #394867;
+    width:300px;
+    height:220px;
+    margin-top:50px;  
+} 
+
+.card-header{
+    background-color: #394867;
+
+}
+.cardTitle{
+    font-family: 'Poppins', sans-serif;
+    color:#9BA4B5;
+    font-weight: bold;
+}  
+.skillsCards{
+    color:#9BA4B5;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.skillsCards:hover{
+    color:#F1F6F9
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+margin-top:10px;
+font-size:15px;
+color: #394867;
+}
+
+.contactPar{
+    margin-top: 30px;
+    color:#394867
+}
+#mediaIcons {
+    display: flex;
+    justify-content: center;
+}
+#iconsFooter:hover{
+    width:35px;
+    height:35px;
+    
+}
+svg {
+    width:30px;
+    height:30px;
+    margin:50px;
+}
+
+
+
+
+    @media all and (max-width: 600px) {
+       /* ---- navbar---- */
+
+        .navbar-toggler-icon {
+            margin: 0;
+        }
+        
+        .navbar-brand {
+          display: none;
+        }
+        .navbar{display: flex;
+            justify-content: end;
+        }
+ 
+         /* ---- body---- */
+        #webDevBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+            margin-left:20px;
+            
+        }
+        .aboutAndCertificates{
+            display: flex;
+            flex-direction: column;
+        }
+        .bd-placeholder-img{
+            width:300px;
+            height:200px;
+            margin-left:-60px;
+            margin-top: -120px
+        }
+        p{
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;  
+        }
+        #name, #frontEnd {
+            font-size: 30px;
+            font-style: bold;
+            color:#394867
+        }
+        
+        img {
+        margin-top: 50px;
+        }
+        .card{
+    margin-left:50px
+        }
+.contactPar{
+    margin-left:30px;
+    margin-right: 30px;
+}
+        #cardBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card1 {
+            width:300px;
+            height:300px;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+
+        #contactFormDown{
+            border:2px solid #394867;
+            padding: 50px;
+            border-radius: 20px;
+            width:300px;
+            margin-top:50px;
+        }
+       
+
+    }
+
+    /* ---- portfolio 
 
 
 #cardBox {
@@ -904,34 +1073,7 @@ h3:hover{
     top: 0;
     border-radius: 30px;
 }
-   /* ---- about me---- */
 
-#aboutMe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.mePar{
-    font-size:20px;
-
-    margin-left:100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-span {
-    color: #6C4AB6;
-}
-
-#myCarousel{
-    display: flex;
-
-}
-.carousel-item {
-    justify-content: center;
-    margin-top: 50px;
-}
 
 .skills{
 justify-content: center;
@@ -970,89 +1112,4 @@ margin: 50px;
 background-color: #6C4AB6;
 color: #fff;
 cursor: pointer;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-}
-.copyright {
-margin-top:50px;
-font-size:15px;
-}
-
-#mediaIcons {
-    display: flex;
-    justify-content: center;
-  
-}
-svg {
-    width:30px;
-    height:30px;
-    margin:50px;
-}
-
-
-
-
-    @media all and (max-width: 600px) {
-       /* ---- navbar---- */
-
-        .navbar-toggler-icon {
-            margin: 0;
-        }
-        
-        .navbar-brand {
-          display: none;
-        }
-        .navbar{display: flex;
-            justify-content: end;
-        }
- 
-         /* ---- body---- */
-        #webDevBox {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 100px;
-            
-        }
-        
-        p{
-            font-size: 20px;
-            font-family: 'Poppins', sans-serif;
-            
-        }
-        #name, #frontEnd {
-            font-size: 30px;
-            font-style: bold;
-            color:#6C4AB6
-        }
-        
-        img {
-        margin-top: 50px;
-        }
-
-        #cardBox {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .card1 {
-            width:300px;
-            height:300px;
-            margin-top: 100px;
-            border-radius: 20px;
-        }
-
-        #contactFormDown{
-            border:2px solid #6C4AB6;
-            padding: 50px;
-            border-radius: 20px;
-            width:300px;
-            margin-top:50px;
-        }
-       
-
-    }
+}---- */
