@@ -210,9 +210,71 @@ span {
     color:#F1F6F9
 }
 
+/***PROJECTS***/
+
+.projectContainer{
+    display: flex; 
+    margin-top:50px;
+    height:278px;
+    background-color: #394867;
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projectPic{
+margin-top:0px
+}
+#colorPic{
+    display:none;
+}
+
+.projectsPar{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:50px;
+    margin-right:50px;
+    color:#9BA4B5
+}
+.projectsPar:hover{
+    color:#F1F6F9
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#9BA4B5;
+    margin-top:30px
+}
+h3:hover{
+    color:#F1F6F9
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+   
+}
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#394867;
+    background-color: #F1F6F9;
+    border: 2px solid #9BA4B5;
+    margin:50px;
+}
+.btn:hover {
+    background-color: #394867;
+    color:#F1F6F9;
+    font-weight: 100;
+    border:2px solid #F1F6F9
+
+}
 
 
 
+/***FooTER**/
 
 .footer {
     display: flex;

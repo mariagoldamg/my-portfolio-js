@@ -89,7 +89,7 @@
           <p class="moreInfo">an avid hiker, dog lover and yoga enthusiast.</p>
 
     </div>
-    <img src="greyPic.JPG" alt="" width="300px" height="385px" >
+    <img src="greyPic.JPG" alt="" width="300px" height="385px" id="img">
 </div>
 
 <!---About me-->
@@ -103,12 +103,6 @@
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel"  data-aos-delay="100" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 
-     <!-- <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-      </div>
-  -->
       <div class="carousel-inner">
   
         <div class="carousel-item active">
@@ -191,26 +185,30 @@
 </div>
 
 <!---Portfolio Box-->
-<div id="portfolioBox">
 
-  <div id="title">
-      <p id="name">Projects</p>
-  </div>
-
-
-  <div class="row align-items-md-stretch">
-    <div class="col-md-6">
-      <div class="h-100 p-5 text-bg-dark rounded-3">
-        <h2>Change the background</h2>
-        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-        <button class="btn btn-outline-light" type="button">Example button</button>
-      </div>
-    </div>
-   
-  </div>
-
-
+<div id="title">
+  <p id="name">Projects</p>
 </div>
+
+
+
+<div class="projectContainer">
+<div class="imgContainer">
+<img id="projectPic" src="jsUniverse.png" width="500px" onmouseover="hover(this);" onmouseout="hoverOut(this)">
+<img id="colorPic" src="colorJS.png" width = "500px">
+</div>
+<div class="descriptionContainer">
+  <h3> JavaScript Universe</h3>
+    <p class="projectsPar">It is a collection of 10+ JavaScript Projects showcasing various JS skills.<br> 
+  Projects are built with: HTML 5 / CSS 3 / BOOTSTRAP / GSAP / FIGMA  </p>
+  <div class="buttons">
+  <a href="https://jsuniverse-mariamelnikova.netlify.app/"  target="_blank" class="btn">Demo</a>
+  <a href="https://github.com/mariagoldamg/javascript-universe.git"  target="_blank" class="btn">Repo</a>
+</div>
+</div>
+</div>
+
+
 <!---contact me-->
 
 <div class="contactMeBox">
@@ -232,6 +230,9 @@
       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
     </svg></a></div>
     <div>
+      <a href ="https://github.com/mariagoldamg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#394867" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg></a>
       <a href="https://medium.com/@mariamelnikovamm" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" id="iconsFooter" fill="#394867" width="16" height="16" class="bi bi-medium" viewBox="0 0 16 16">
         <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
       </svg></a></div>

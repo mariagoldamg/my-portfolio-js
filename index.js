@@ -111,7 +111,14 @@ AOS.init();
     "retina_detect": true
   });
 
-  
+
+function hover(img){
+  img.src = "colorJS.png"
+ }
+ function hoverOut(img){
+  img.src = 'jsUniverse.png'
+ }
+
 
   gsap.to ("#frontEnd", {
     delay:1.4,
@@ -120,7 +127,7 @@ AOS.init();
     ease:"linear",
 })
 
-gsap.from ("img", {
+gsap.from ("#img", {
 
     opacity:0,
     delay:5,
