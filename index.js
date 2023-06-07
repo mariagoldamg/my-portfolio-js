@@ -119,6 +119,12 @@ function hover(img){
   img.src = 'jsUniverse.png'
  }
 
+ function hoverYoga(img){
+  img.src = "yogaCover.png"
+ }
+ function hoverOutYoga(img){
+  img.src = 'yogaCoverBlack.png'
+ }
 
   gsap.to ("#frontEnd", {
     delay:1.4,

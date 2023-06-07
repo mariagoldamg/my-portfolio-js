@@ -215,7 +215,8 @@ span {
 .projectContainer{
     display: flex; 
     margin-top:50px;
-    height:278px;
+    width:95%;
+    height:400px;
     background-color: #394867;
 }
 
@@ -226,8 +227,11 @@ span {
 }
 
 #projectPic{
-margin-top:0px
+margin-top:50px;
+margin-left:50px;
 }
+
+
 #colorPic{
     display:none;
 }
