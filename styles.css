@@ -137,7 +137,9 @@ cursor: pointer;
     justify-content: space-evenly;
     margin-top: 200px;
 }
-
+.mobileEmail{
+    display:none
+}
 p{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
@@ -336,13 +338,30 @@ svg {
        
  
          /* ---- body---- */
+
         #webDevBox {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-top: 100px;
             margin-left:-10px;
-            
+        }
+        .mobileEmail{
+            display:block;
+            display: flex;
+            justify-content: center;
+            margin-top:-50px;
+            margin-bottom: 50px;
+        }
+        #mobileEmail {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color: #F1F6F9;
+        }
+        #mobileEmail:hover{
+            text-decoration: underline;
+            color:#394867
         }
         .aboutAndCertificates{
             display: flex;
