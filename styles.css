@@ -71,6 +71,9 @@ nav {
     color: #F1F6F9;
     text-decoration: underline;
 }
+.navMailIcon{
+    display:none;
+}
 #contactForm {
     background-color: #394867;
     padding: 50px;
@@ -156,7 +159,7 @@ margin-top: -100px;
       #title {
         display: flex;
         justify-content: center;
-        margin-top: 70px;
+        margin-top: 100px;
     }
 .aboutAndCertificates{
     display: flex;
@@ -211,7 +214,11 @@ span {
 }
 
 /***PROJECTS***/
-
+#portfolioBox {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
 .projectContainer{
     display: flex; 
     margin-top:50px;
@@ -323,8 +330,10 @@ svg {
           display: none;
         }
         .navbar{display: flex;
-            justify-content: end;
+            justify-content:end;
+           
         }
+       
  
          /* ---- body---- */
         #webDevBox {
@@ -332,7 +341,7 @@ svg {
             flex-direction: column;
             align-items: center;
             margin-top: 100px;
-            margin-left:20px;
+            margin-left:-10px;
             
         }
         .aboutAndCertificates{
@@ -354,9 +363,15 @@ svg {
             font-style: bold;
             color:#394867
         }
-        
+        #webDev{
+            width:300px;
+        }
         img {
         margin-top: 50px;
+       width:300px;
+       margin-left:0;
+       margin-right: 0;
+      
         }
         .card{
     margin-left:50px
@@ -364,6 +379,10 @@ svg {
 .contactPar{
     margin-left:30px;
     margin-right: 30px;
+    font-size: 15px;
+}
+.contactSpan{
+    font-size: 15px;
 }
         #cardBox {
             display: flex;
@@ -386,7 +405,83 @@ svg {
             margin-top:50px;
         }
        
-
+        #portfolioBox {
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+        }
+        .projectContainer{
+            display: flex; 
+            flex-direction: column;
+            margin-top:50px;
+            width:300px;
+            height:100%;
+            background-color: #394867;
+        }
+        
+        .descriptionContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #projectPic{
+            width:250px;
+        margin-top:50px;
+        margin-left:25px
+        }
+        
+        
+        #colorPic{
+            display:none;
+        }
+        
+        .projectsPar{
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left:50px;
+            margin-right:50px;
+            color:#9BA4B5
+        }
+        .projectsPar:hover{
+            color:#F1F6F9
+        }
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color:#9BA4B5;
+            margin-top:30px
+        }
+        h3:hover{
+            color:#F1F6F9
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+           
+        }
+        .btn {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            color:#394867;
+            background-color: #F1F6F9;
+            border: 2px solid #9BA4B5;
+            margin:50px;
+        }
+        .btn:hover {
+            background-color: #394867;
+            color:#F1F6F9;
+            font-weight: 100;
+            border:2px solid #F1F6F9
+        }
+        svg {
+            width:20px;
+            height:20px;
+            margin:20px;
+        }
+        .contactMeBox{
+            width:300px;
+        }
     }
 
     

@@ -126,6 +126,13 @@ function hover(img){
   img.src = 'yogaCoverBlack.png'
  }
 
+ function hoverRecipe(img){
+  img.src = "recipeCover.png"
+ }
+ function hoverOutRecipe(img){
+  img.src = 'recipeCoverBlack.png'
+ }
+
   gsap.to ("#frontEnd", {
     delay:1.4,
     text:"Fullstack Web Developer,",

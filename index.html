@@ -21,7 +21,6 @@
 
         <div class="container-fluid"> 
           <a class="name navbar-brand fs-5 col-8 ms-2"  href="mailto: mariamelnikova.mm@gmail.com">mariamelnikovamm@gmail.com</a>
-       
           </div>
           <button class="navbar-toggler menuBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"   aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -185,7 +184,7 @@
 </div>
 
 <!---Portfolio Box-->
-
+<div id="portfolioBox">
 <div id="title">
   <p id="name">Projects</p>
 </div>
@@ -208,6 +207,29 @@
   </div>
   </div>
 
+
+  <div class="projectContainer" data-aos="fade-up" data-aos-delay="100"  data-aos-easing="ease-in-sine" data-aos-duration="1000">
+    <div class="imgContainer">
+    <img id="projectPic" src="recipeCoverBlack.png"  width="500px" onmouseover="hoverRecipe(this);" onmouseout="hoverOutRecipe(this)">
+    <img id="colorPic" src="recipeCover.png" width = "500px">
+    </div>
+    <div class="descriptionContainer">
+      <h3> Find a Recipe App</h3>
+        <p class="projectsPar">
+          A single page React app for your recipe search utilizing REST API.
+      <br> 
+      <br>Project is built with: REACT / REST API / CSS 3 
+        </p>
+      <div class="buttons">
+      <a href="https://find-a-recipe-react-api.netlify.app"  target="_blank" class="btn">Demo</a>
+      <a href="https://github.com/mariagoldamg/my-recipe-app.git"  target="_blank" class="btn">Repo</a>
+    </div>
+    </div>
+    </div>
+
+
+
+
 <div class="projectContainer" data-aos="fade-up" data-aos-delay="100"  data-aos-easing="ease-in-sine" data-aos-duration="1000">
 <div class="imgContainer">
 <img id="projectPic" src="jsUniverse.png" width="500px" onmouseover="hover(this);" onmouseout="hoverOut(this)">
@@ -215,7 +237,7 @@
 </div>
 <div class="descriptionContainer">
   <h3> JavaScript Universe</h3>
-    <p class="projectsPar">It is a collection of 10+ JavaScript Projects showcasing various JS skills, featuring:
+    <p class="projectsPar">It is a collection of 10+ JavaScript Projects featuring:
       countdown timer, API weather app, calculator, library search, quiz, phrase generator and scenario game. <br> 
       <br>Projects are built with: JAVASCRIPT / HTML 5 / CSS 3 / BOOTSTRAP / GSAP / FIGMA  </p>
   <div class="buttons">
@@ -225,6 +247,7 @@
 </div>
 </div>
 
+</div>
 
 <!---contact me-->
 
@@ -233,8 +256,8 @@
   <div id="title">
     <p id="name">Contact Me</p>
 </div>
-<div data-aos="fade-up" data-aos-delay="100"  data-aos-easing="ease-in-sine" data-aos-duration="1000">
-  <p class="contactPar">Click the links <span> to  get in touch </span> and let's <span> build something together.</span> </p>
+<div  data-aos="fade-up" data-aos-delay="100"  data-aos-easing="ease-in-sine" data-aos-duration="1000">
+  <p class="contactPar">Click the links <span class="contactSpan"> to  get in touch </span> and let's <span> build something together.</span> </p>
 </div>
 
 <div id="mediaIcons" data-aos="fade-up" data-aos-delay="100"  data-aos-easing="ease-in-sine" data-aos-duration="1000">
